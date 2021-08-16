@@ -1,0 +1,40 @@
+body {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: #91e3ca;
+  border: 1px solid #000;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  align-items: center;
+}
+.quadrado1 {
+  background-color: #eba283;
+  font-family: verdana, arial, cursive;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+}
+.circle {
+  background-color: #eb8383;
+  font-family: verdana, arial, cursive;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 68%;
+  bottom: 2%;
+
+  border-radius: 100%;
+}
